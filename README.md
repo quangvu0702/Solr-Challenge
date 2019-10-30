@@ -14,6 +14,7 @@
 
 - Reading: [Part 1 Meet Solr. One chapter per day.](https://livebook.manning.com/book/solr-in-action/about-this-book/)
   * Chap 1:
+    - text-centric, read-dominant, documentoriented, and flexible schema
     - Solr use cases.
     - Key components of Solr.
 - Coding: [Finish solr tutorial](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#solr-tutorial)
