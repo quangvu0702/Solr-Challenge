@@ -20,6 +20,8 @@
   * Chap 2 Getting to know Solr: (nearly 1 hour)
     - It time to read. Don't code.
     - Sorting, paging, and results formatting.
+  * Install solr and index sample: (about 2 hours)
+    - [I install solr 7.7](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#solr-tutorial)
 - Coding: [Finish solr tutorial](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#solr-tutorial)
 - Video: http://snap.stanford.edu/class/cs224w-videos-2017/170926-cs224w-720.mp4
 
