@@ -13,10 +13,12 @@
 ## Week 1 - Introduction
 
 - Reading: [Part 1 Meet Solr. One chapter per day.](https://livebook.manning.com/book/solr-in-action/about-this-book/)
-  * Chap 1:
+  * Chap 1 Introduction to Solr: (nearly 2 hours)
     - text-centric, read-dominant, documentoriented, and flexible schema
     - Solr use cases.
     - Key components of Solr.
+  * Chap 2 Getting to know Solr: (nearly 1 hour)
+    - Sorting, paging, and results formatting.
 - Coding: [Finish solr tutorial](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#solr-tutorial)
 - Video: http://snap.stanford.edu/class/cs224w-videos-2017/170926-cs224w-720.mp4
 
