@@ -21,6 +21,7 @@
     - It time to read. Don't code.
     - Sorting, paging, and results formatting.
   * Install solr and index sample: (about 1 hours)
+    - Only work on Exercise 1.
     - [I install solr 7.7](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#solr-tutorial)
     - [Index data in solr](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#index-the-techproducts-data)
     - [Try basic search](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#tutorial-searching)
