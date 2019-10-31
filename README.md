@@ -25,12 +25,12 @@
     - [I install solr 7.7](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#solr-tutorial)
     - [Index data in solr](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#index-the-techproducts-data)
     - [Try basic search](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#tutorial-searching)
-  * Chap 3 Key Solr concepts:(about 2 hours)
+  * Chap 3 Key Solr concepts: (about 2 hours)
     - Fundamental problem search engines are solving 
     - The basic structure of Solr’s internal index
     - FUZZY/EDIT-DISTANCE SEARCHING, PROXIMITY SEARCHING
     - How Solr calculates scores for matching queries to the most relevant documents
-  * Chap 4 Configuring Solr:
+  * Chap 4 Configuring Solr: (about 2 hours)
     - How Solr works
     - How queries are executed.
     - Three main XML files: solr.xml, solrconfig.xml, schema.xml.
