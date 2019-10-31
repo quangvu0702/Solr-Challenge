@@ -26,7 +26,14 @@
     - [Index data in solr](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#index-the-techproducts-data)
     - [Try basic search](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#tutorial-searching)
   * Chap 3 Key Solr concepts:(about 2 hours)
-    - 
+    - Fundamental problem search engines are solving 
+    - The basic structure of Solr’s internal index
+    - FUZZY/EDIT-DISTANCE SEARCHING, PROXIMITY SEARCHING
+    - How Solr calculates scores for matching queries to the most relevant documents
+  * Chap 4 Configuring Solr:
+    - How Solr works
+    - Handling a query request.
+    - Search components.
 - Coding: [Finish solr tutorial](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#solr-tutorial)
 - Video: http://snap.stanford.edu/class/cs224w-videos-2017/170926-cs224w-720.mp4
 
