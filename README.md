@@ -1,6 +1,6 @@
 # Solr Challenge
 
-### I designed this Challenge for me: Learn Solr in Depth in 60 days!!
+### I designed this Challenge for me: Learn Solr in Depth in 30 days!!
 
 ### Prerequisites
 * Basic level of Java.
@@ -30,7 +30,7 @@
     - The basic structure of Solr’s internal index
     - FUZZY/EDIT-DISTANCE SEARCHING, PROXIMITY SEARCHING
     - How Solr calculates scores for matching queries to the most relevant documents
-  * Chap 4 Configuring Solr: (about 2 hours)
+  * Chap 4 Configuring Solr: (nearly 2 hours)
     - How queries are executed.
     - Params: q, fq, sort, fl, df, wt, start, rows
     - Components: query, facet, more like this, highlight, stats, debug.
