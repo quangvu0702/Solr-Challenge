@@ -38,6 +38,7 @@
     - Documents, id, indexed fields, 
     - Fields, field types, and schema design.
     - Fields, dynamic fields, and copy fields
+    - (Optional) [solr-field-types](http://lucene.apache.org/solr/guide/7_7/solr-field-types.html)
   * Do exercise: (nearly 1 hour)
     - [Do Exercise 2](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#exercise-2)
     - [Update and delete data](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#exercise-3)
