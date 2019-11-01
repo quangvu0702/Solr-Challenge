@@ -35,8 +35,14 @@
     - Params: q, fq, sort, fl, df, wt, start, rows
     - Components: query, facet, more like this, highlight, stats, debug.
   * Chap 5 Indexing: (about 3 hours)
-    - Designing the schema for indexing documents.
-    - Schema.xml
+    - Documents, id, indexed fields, 
+    - Fields, field types, and schema design.
+    - Fields, dynamic fields, and copy fields
+  * Do exercise: (nearly 1 hour)
+    - [Do Exercise 2](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#exercise-2)
+    - [Update and delete data](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#exercise-3)
+  * Chap 6 Text analysis: (about 2 hours)
+    - xxx
 - Coding: [Finish solr tutorial](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#solr-tutorial)
 - Video: http://snap.stanford.edu/class/cs224w-videos-2017/170926-cs224w-720.mp4
 
