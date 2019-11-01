@@ -43,7 +43,8 @@
     - [Do Exercise 2](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#exercise-2)
     - [Update and delete data](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#exercise-3)
   * Chap 6 Text analysis: (about 2 hours)
-    - xxx
+    - The analyzer, tokenizer, and chain of token filters.
+chain of token filters.
 - Coding: [Finish solr tutorial](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#solr-tutorial)
 - Video: http://snap.stanford.edu/class/cs224w-videos-2017/170926-cs224w-720.mp4
 
