@@ -7,7 +7,7 @@
 
 ## Index
  - **[Week 1 - Introduction](https://github.com/quangvu0702/Solr_challenge/new/master?readme=1#week-1---introduction)**
-
+ - **[Week 2 - Core Solr capabilities()
 <br>
 
 ## Week 1 - Introduction
@@ -46,8 +46,12 @@
     - The analyzer, tokenizer, and chain of token filters.
 chain of token filters.
 - Coding: [Finish solr tutorial](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html#solr-tutorial)
-- Video: http://snap.stanford.edu/class/cs224w-videos-2017/170926-cs224w-720.mp4
 
+## Week 2 - Core Solr capabilities
+
+- Reading: [Part 2 Core Solr capabilities](https://livebook.manning.com/book/solr-in-action/about-this-book/)
+  * Chap 7: Performing queries and handling results (about 4 hours)
+    - Request handlers
 
 # Reference:
 
