@@ -52,7 +52,21 @@ chain of token filters.
 - Reading: [Part 2 Core Solr capabilities](https://livebook.manning.com/book/solr-in-action/about-this-book/)
   * Chap 7: Performing queries and handling results (about 4 hours)
     - Request handlers
-
+    - Parameters
+    - Finding, ordering
+    - filter query, query
+    - eDisMax
+  * Chap 8: Faceted search (about 2 hours)
+    - facets
+    - field facet
+    - range faceting
+  * Chap 9: Hit highlighting (option)
+  * Chap 10: Query suggestions (about 1 hours)
+    - Spell-checking
+    - Suggesting query terms
+    - Predictive instant search experience
+    - Suggesting queries based on past user activity
+    
 # Reference:
 
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
