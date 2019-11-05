@@ -73,8 +73,10 @@ chain of token filters.
 - Reading: [Part 3 Taking Solr to the next level](https://livebook.manning.com/book/solr-in-action/about-this-book/)
   * Chap 13, 14, 15: (Optional)
   * Chap 16 Mastering relevancy: (3 hours)
-    - Boosting fields, terms.
+    - Debug result
+    - Per-field boosting, per-term, payload boosting, function boosting.
     - Personalized search.
+    - distance boost
 # Reference:
 
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
