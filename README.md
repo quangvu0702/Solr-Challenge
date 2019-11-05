@@ -61,12 +61,19 @@ chain of token filters.
     - field facet
     - range faceting
   * Chap 9: Hit highlighting (option)
-  * Chap 10: Query suggestions (about 1 hours)
-    - Spell-checking
-    - Suggesting query terms
-    - Predictive instant search experience
-    - Suggesting queries based on past user activity
-    
+  * Chap 10: Query suggestions (about 1 hour)
+    - Four general scenarios
+    - Type-ahead suggestions
+  * Chapter 11: Result grouping / field collapsing (about 1 hour)
+    - sdfsdf
+  * Chapter 12: (Optional)
+  
+## Week 3 - Taking Solr to the next level
+- Reading: [Part 3 Taking Solr to the next level](https://livebook.manning.com/book/solr-in-action/about-this-book/)
+  * Chap 13, 14, 15: (Optional)
+  * Chap 16 Mastering relevancy: (3 hours)
+    - Boosting fields, terms.
+    - Personalized search.
 # Reference:
 
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
