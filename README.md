@@ -77,6 +77,12 @@ chain of token filters.
     - Per-field boosting, per-term, payload boosting, function boosting.
     - Personalized search.
     - distance boost
+- Practice config: apply what we have learn in the book.
+  * Basic:
+    - Select sample data. (anything you want)(1 second)
+    - Download and preprocess data to import to solr. (2 hours)
+    - Define schema.xml (1 hour)
+    - Select 10 documents and try to import to Solr.(1 second)
 # Reference:
 
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
