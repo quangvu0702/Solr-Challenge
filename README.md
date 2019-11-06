@@ -80,6 +80,10 @@ chain of token filters.
 - Practice config: apply what we have learn in the book.
   * Basic:
     - [Solr 101](https://cognitiveclass.ai/courses/introduction-to-solr)
+    - [xxx](https://www.slideshare.net/arafalov/rebuilding-solr-6-examples-layer-by-layer-lucenesolrrevolution-2016)
+    - [aaa](https://dmidma.wordpress.com/2017/03/31/apache-solr-intro-to-examples/)
+    - [xx](https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781782164845/1/ch01lvl1sec08/creating-your-first-collection--28simple-29)
+    - [xxx](https://www.outerthoughts.com/2015/11/learning-solr-comprehensively/)
 # Reference:
 
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
