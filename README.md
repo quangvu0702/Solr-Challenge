@@ -95,4 +95,4 @@ chain of token filters.
 - https://cwiki.apache.org/confluence/display/SOLR/DIHQuickStart
 - https://www.slideshare.net/arafalov/rebuilding-solr-6-examples-layer-by-layer-lucenesolrrevolution-2016
 - https://www.youtube.com/watch?v=jNK2bNINSGM&list=PLCoJWKqBHERu9Fe0W12D7XKwGT2eoJJNU
-
+- https://github.com/o19s
