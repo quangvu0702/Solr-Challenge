@@ -69,24 +69,23 @@ chain of token filters.
   * Chapter 11: Result grouping / field collapsing (about 1 hour)
     - sdfsdf
   * Chapter 12: (Optional)
-  
-## Week 3 - Hands-on Solr
-- Reading: [Part 3 Taking Solr to the next level](https://livebook.manning.com/book/solr-in-action/about-this-book/)
   * Chap 13, 14, 15: (Optional)
   * Chap 16 Mastering relevancy: (3 hours)
     - Debug result
     - Per-field boosting, per-term, payload boosting, function boosting.
     - Personalized search.
     - distance boost
-- Practice config: apply what we have learn in the book.
-  * Basic:
-    - [Solr 101](https://cognitiveclass.ai/courses/introduction-to-solr)
-      - Try to use the intructions in [this tutorial](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html) to solve the hands-on lab. You have read what you need to know to do the hands-on exercises. Just do it.
-    - [xxx](https://www.slideshare.net/arafalov/rebuilding-solr-6-examples-layer-by-layer-lucenesolrrevolution-2016)
-    - [aaa](https://dmidma.wordpress.com/2017/03/31/apache-solr-intro-to-examples/)
-    - [xx](https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781782164845/1/ch01lvl1sec08/creating-your-first-collection--28simple-29)
-    - [xxx](https://www.outerthoughts.com/2015/11/learning-solr-comprehensively/)
+  
+## Week 3 - Hands-on Solr
+ - Basic:
+   - [Solr 101](https://cognitiveclass.ai/courses/introduction-to-solr)
+     - Try to use the intructions in [this tutorial](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html) to solve the hands-on lab. You have read what you need to know to do the hands-on exercises. Just do it.
+   - [xxx](https://www.slideshare.net/arafalov/rebuilding-solr-6-examples-layer-by-layer-lucenesolrrevolution-2016)
+   - [aaa](https://dmidma.wordpress.com/2017/03/31/apache-solr-intro-to-examples/)
+   - [xx](https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781782164845/1/ch01lvl1sec08/creating-your-first-collection--28simple-29)
+   - [xxx](https://www.outerthoughts.com/2015/11/learning-solr-comprehensively/)
 # Reference:
 
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
 - http://snap.stanford.edu/class/cs224w-videos-2017/
+- https://cwiki.apache.org/confluence/display/SOLR/DIHQuickStart
