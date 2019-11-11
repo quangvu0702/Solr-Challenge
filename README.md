@@ -94,4 +94,5 @@ chain of token filters.
 - http://snap.stanford.edu/class/cs224w-videos-2017/
 - https://cwiki.apache.org/confluence/display/SOLR/DIHQuickStart
 - https://www.slideshare.net/arafalov/rebuilding-solr-6-examples-layer-by-layer-lucenesolrrevolution-2016
-- 
+- https://www.youtube.com/watch?v=jNK2bNINSGM&list=PLCoJWKqBHERu9Fe0W12D7XKwGT2eoJJNU
+
