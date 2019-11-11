@@ -69,7 +69,7 @@ chain of token filters.
     - sdfsdf
   * Chapter 12: (Optional)
   
-## Week 3 - Taking Solr to the next level
+## Week 3 - Hands-on Solr
 - Reading: [Part 3 Taking Solr to the next level](https://livebook.manning.com/book/solr-in-action/about-this-book/)
   * Chap 13, 14, 15: (Optional)
   * Chap 16 Mastering relevancy: (3 hours)
@@ -80,6 +80,7 @@ chain of token filters.
 - Practice config: apply what we have learn in the book.
   * Basic:
     - [Solr 101](https://cognitiveclass.ai/courses/introduction-to-solr)
+      - Try to use the intructions in [this tutorial](http://lucene.apache.org/solr/guide/7_7/solr-tutorial.html) to solve the hands-on lab. You have read what you need to know to do the hands-on exercises. Just do it.
     - [xxx](https://www.slideshare.net/arafalov/rebuilding-solr-6-examples-layer-by-layer-lucenesolrrevolution-2016)
     - [aaa](https://dmidma.wordpress.com/2017/03/31/apache-solr-intro-to-examples/)
     - [xx](https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781782164845/1/ch01lvl1sec08/creating-your-first-collection--28simple-29)
