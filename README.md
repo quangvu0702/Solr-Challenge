@@ -80,15 +80,18 @@ chain of token filters.
     - distance boost
   
 ## Week 3 - Hands-on Solr
- - Basic: start Solr -> pick a .csv file -> create schema.xml -> query -> analyzer.
+ - Goals: start Solr -> pick a .csv file -> create schema.xml -> query -> analyzer.
+ - Vides:
    - [Solr 101](https://cognitiveclass.ai/courses/introduction-to-solr) (about 1 hour)
      - Videos only. We will practice later.
-   - [xxx](https://www.slideshare.net/arafalov/rebuilding-solr-6-examples-layer-by-layer-lucenesolrrevolution-2016)
-   - [aaa](https://dmidma.wordpress.com/2017/03/31/apache-solr-intro-to-examples/)
-   - [xx](https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781782164845/1/ch01lvl1sec08/creating-your-first-collection--28simple-29)
-   - [xxx](https://www.outerthoughts.com/2015/11/learning-solr-comprehensively/)
+   - [Rebuilding Solr 6 examples: layer by layer - Alexandre Rafalovitch, Search Stack Solutions](https://www.youtube.com/watch?v=lc6krl8iC9o) (about 1 hour)
+   
+ - Hands-on:
+   - [apache-solr-intro-to-examples](https://dmidma.wordpress.com/2017/03/31/apache-solr-intro-to-examples/)
 # Reference:
 
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
 - http://snap.stanford.edu/class/cs224w-videos-2017/
 - https://cwiki.apache.org/confluence/display/SOLR/DIHQuickStart
+- https://www.slideshare.net/arafalov/rebuilding-solr-6-examples-layer-by-layer-lucenesolrrevolution-2016
+- 
