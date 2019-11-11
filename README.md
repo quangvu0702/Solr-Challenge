@@ -87,8 +87,8 @@ chain of token filters.
    - [Rebuilding Solr 6 examples: layer by layer - Alexandre Rafalovitch, Search Stack Solutions](https://www.youtube.com/watch?v=lc6krl8iC9o) (about 1 hour)
    
  - Hands-on:
-   - [apache-solr-intro-to-examples](https://dmidma.wordpress.com/2017/03/31/apache-solr-intro-to-examples/)
-     - Note: all the files you need [here](xx)
+   - [apache-solr-intro-to-examples](https://dmidma.wordpress.com/2017/03/31/apache-solr-intro-to-examples/) (about 2 hours)
+     - Note: all the files you need [here](https://github.com/quangvu0702/Solr-Challenge/tree/master/collection1)
 # Reference:
 
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
