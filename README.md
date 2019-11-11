@@ -4,6 +4,7 @@
 
 ### Prerequisites
 * Basic level of Java.
+* Know how to config, run command.
 
 ## Index
  - **[Week 1 - Introduction](https://github.com/quangvu0702/Solr_challenge/new/master?readme=1#week-1---introduction)**
