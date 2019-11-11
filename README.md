@@ -88,6 +88,7 @@ chain of token filters.
    
  - Hands-on:
    - [apache-solr-intro-to-examples](https://dmidma.wordpress.com/2017/03/31/apache-solr-intro-to-examples/)
+     - Note: all the files you need [here](xx)
 # Reference:
 
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
