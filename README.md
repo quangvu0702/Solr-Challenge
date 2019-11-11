@@ -80,7 +80,6 @@ chain of token filters.
     - distance boost
   
 ## Week 3 - Hands-on Solr
- - Goals: start Solr -> pick a .csv file -> create schema.xml -> query -> analyzer.
  - Vides:
    - [Solr 101](https://cognitiveclass.ai/courses/introduction-to-solr) (about 1 hour)
      - Videos only. We will practice later.
@@ -88,6 +87,7 @@ chain of token filters.
    
  - Hands-on:
    - [apache-solr-intro-to-examples](https://dmidma.wordpress.com/2017/03/31/apache-solr-intro-to-examples/) (about 2 hours)
+     - Goals: start Solr -> pick a .csv file -> create schema.xml -> query -> analyzer.
      - Note: all the files you need [here](https://github.com/quangvu0702/Solr-Challenge/tree/master/collection1)
 # Reference:
 
