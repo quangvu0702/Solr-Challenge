@@ -80,7 +80,7 @@ chain of token filters.
     - distance boost
   
 ## Week 3 - Hands-on Solr
- - Basic:
+ - Basic: start Solr -> pick a .csv file -> create schema.xml -> query -> analyzer.
    - [Solr 101](https://cognitiveclass.ai/courses/introduction-to-solr) (about 1 hour)
      - Videos only. We will practice later.
    - [xxx](https://www.slideshare.net/arafalov/rebuilding-solr-6-examples-layer-by-layer-lucenesolrrevolution-2016)
