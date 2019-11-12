@@ -94,7 +94,7 @@ chain of token filters.
      - Key words: indexed, stored, type, required, field, dynamic_field
      - Reread [chapter 5: indexing](https://livebook.manning.com/book/solr-in-action/chapter-5)
      - [Download data](https://www.manning.com/downloads/683)
-     - Implement EXAMPLE MICROBLOG follow instructions in chapter 5.
+     - Implement EXAMPLE MICROBLOG follow instructions in chapter 5: reload core and test the effect of the code you change, modify tweets.xml to the right format with the changed code.
      - [All code you need are here.]()
 # Reference:
 
