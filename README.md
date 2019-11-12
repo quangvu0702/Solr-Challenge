@@ -91,6 +91,7 @@ chain of token filters.
      - Note: all the files you need [here](https://github.com/quangvu0702/Solr-Challenge/tree/master/collection1)
    - Indexing:
      - Goals: learn how to design schema.
+     - Key words: indexed, stored, type, required, field, dynamic_field
      - Reread [chapter 5: indexing](https://livebook.manning.com/book/solr-in-action/chapter-5)
      - [Download data](https://www.manning.com/downloads/683)
      - Implement EXAMPLE MICROBLOG follow instructions in chapter 5.
