@@ -89,6 +89,12 @@ chain of token filters.
    - [apache-solr-intro-to-examples](https://dmidma.wordpress.com/2017/03/31/apache-solr-intro-to-examples/) (about 2 hours)
      - Goals: start Solr -> pick a .csv file -> create schema.xml -> query -> analyzer.
      - Note: all the files you need [here](https://github.com/quangvu0702/Solr-Challenge/tree/master/collection1)
+   - Indexing:
+     - Goals: learn how to design schema.
+     - Reread [chapter 5: indexing](https://livebook.manning.com/book/solr-in-action/chapter-5)
+     - [Download data](https://www.manning.com/downloads/683)
+     - Implement EXAMPLE MICROBLOG follow instructions in chapter 5.
+     - [All code you need are here.]()
 # Reference:
 
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
