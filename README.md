@@ -95,10 +95,13 @@ chain of token filters.
      - Reread [chapter 5: indexing](https://livebook.manning.com/book/solr-in-action/chapter-5)
      - [Download data](https://www.manning.com/downloads/683)
      - Implement EXAMPLE MICROBLOG follow instructions in chapter 5: reload core and test the effect of the code you change, modify tweets.xml to the right format with the changed code.
-     - [All code you need are here.]()
-   - Useful commands:
-     - bin/solr start
-     - bin/solr stop -all && bin/solr start
+     - [All code you need are here.](https://github.com/quangvu0702/Solr-Challenge/tree/master/microblog)
+   - Text analysis:
+     - Goals: learn how to use analizer.
+     - Key words: tokenizer, analizer, stop words.
+     - Reread [chapter 6: indexing](https://livebook.manning.com/book/solr-in-action/chapter-6)
+     - Add analizer to EXAMPLE MICROBLOG.
+     - [All code you need are here.](https://github.com/quangvu0702/Solr-Challenge/tree/master/analizer-chap6)
 # Reference:
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
 - http://snap.stanford.edu/class/cs224w-videos-2017/
