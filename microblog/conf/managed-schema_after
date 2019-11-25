@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema version="1.6">
+	<fields>
+		<field name="id" type="string" indexed="true" stored="true" required="true"/>
+		
+		<dynamicField name="*_t" type="string" indexed="true" stored="true"/>
+		<dynamicField name="*_ti" type="int" indexed="true" stored="true"/>
+		<dynamicField name="*_tdt" type="tdate" indexed="true" stored="true"/>
+		<dynamicField name="*_s" type="string" indexed="true" stored="true" />
+		<dynamicField name="*_ss" type="string" indexed="true" stored="true" multiValued="true"/>
+	</fields>
+
+	<uniqueKey>id</uniqueKey>
+
+	<types>
+		<fieldType name="string" class="solr.StrField" sortMissingLast="true" omitNorms="true"/>
+		<fieldType name="tdate" class="solr.TrieDateField" omitNorms="true" precisionStep="6" positionIncrementGap="0"/>
+		<fieldType name="int" class="solr.TrieIntField" precisionStep="0" positionIncrementGap="0"/>
+	</types>
+</schema>

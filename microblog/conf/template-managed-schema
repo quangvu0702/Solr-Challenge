@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema version="1.6">
+	<fields>
+		<field name="id" type="string" indexed="true" stored="true" required="true"/>
+		<field name="screen_name" type="string" indexed="true" stored="true" required="true"/>
+		<field name="type" type="string" indexed="true" stored="true" required="true"/>
+		<field name="timestamp" type="string" indexed="true" stored="true" required="true"/>
+		<field name="lang" type="string" indexed="true" stored="true" required="true"/>
+		<field name="user_id" type="string" indexed="true" stored="true" required="true"/>
+		<field name="favorites_count" type="string" indexed="true" stored="true" required="true"/>
+		<field name="text" type="string" indexed="true" stored="true" required="true"/>
+	</fields>
+	<uniqueKey>id</uniqueKey>
+	<types>
+		<fieldType name="string" class="solr.StrField" />
+	</types>
+</schema>

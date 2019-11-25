@@ -1,0 +1,11 @@
+# start solr
+bin/solr start
+
+# creat new core with conf file
+bin/solr create_core -c microblog -d microblog/conf/
+
+# restart solr
+bin/solr stop -all && bin/solr start
+
+# import data xml file
+bin/post -c microblog microblog/tweets.xml
