@@ -84,7 +84,7 @@ chain of token filters.
    - [Solr 101](https://cognitiveclass.ai/courses/introduction-to-solr) (about 1 hour)
      - Videos only. We will practice later.
    - [Rebuilding Solr 6 examples: layer by layer - Alexandre Rafalovitch, Search Stack Solutions](https://www.youtube.com/watch?v=lc6krl8iC9o) (about 1 hour)
-   
+ 
  - Hands-on:
    - [apache-solr-intro-to-examples](https://dmidma.wordpress.com/2017/03/31/apache-solr-intro-to-examples/) (about 2 hours)
      - Goals: start Solr -> pick a .csv file -> create schema.xml -> query -> analyzer.
@@ -96,8 +96,10 @@ chain of token filters.
      - [Download data](https://www.manning.com/downloads/683)
      - Implement EXAMPLE MICROBLOG follow instructions in chapter 5: reload core and test the effect of the code you change, modify tweets.xml to the right format with the changed code.
      - [All code you need are here.]()
+   - Useful commands:
+     - bin/solr start
+     - bin/solr stop -all && bin/solr start
 # Reference:
-
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
 - http://snap.stanford.edu/class/cs224w-videos-2017/
 - https://cwiki.apache.org/confluence/display/SOLR/DIHQuickStart
