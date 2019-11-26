@@ -101,7 +101,7 @@ chain of token filters.
      - Key words: tokenizer, analizer, stop words.
      - Reread [chapter 6: indexing](https://livebook.manning.com/book/solr-in-action/chapter-6)
      - Add analizer to EXAMPLE MICROBLOG.
-     - [All code you need are here.](https://github.com/quangvu0702/Solr-Challenge/tree/master/analizer-chap6)
+     - [All code you need are here.](https://github.com/quangvu0702/Solr-Challenge/tree/master/microblog-chapter6)
 # Reference:
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
 - http://snap.stanford.edu/class/cs224w-videos-2017/
