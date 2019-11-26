@@ -103,6 +103,12 @@ chain of token filters.
      - Reread [chapter 6: indexing](https://livebook.manning.com/book/solr-in-action/chapter-6)
      - Add analizer to EXAMPLE MICROBLOG.
      - [All code you need are here.](https://github.com/quangvu0702/Solr-Challenge/tree/master/microblog-chapter6)
+   - Query:
+     - Goals: learn how to query solr to get the result we want.
+     - Key words: 
+     - Reread chapter 7 and 8
+     - Implement EXAMPLE RESTAURANT follow instructions in chapter 8
+     - [All code you need are here.](https://github.com/quangvu0702/Solr-Challenge/tree/master/restaurants)
 # Reference:
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
 - http://snap.stanford.edu/class/cs224w-videos-2017/
