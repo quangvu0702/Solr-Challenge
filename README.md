@@ -10,6 +10,7 @@
  - **[Week 1 - Introduction](https://github.com/quangvu0702/Solr_challenge/new/master?readme=1#week-1---introduction)**
  - **[Week 2 - Core Solr capabilities](https://github.com/quangvu0702/Solr_Challenge/blob/master/README.md#week-2---core-solr-capabilities)**
  - **[Week 3 - Taking Solr to the next level](https://github.com/quangvu0702/Solr_Challenge/blob/master/README.md#week-3---taking-solr-to-the-next-level)**
+ - **[Week 4 - Write a plug-in for solr]()
 <br>
 
 ## Week 1 - Introduction
