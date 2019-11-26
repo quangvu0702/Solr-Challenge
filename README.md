@@ -10,6 +10,7 @@
  - **[Week 1 - Introduction](https://github.com/quangvu0702/Solr_challenge/new/master?readme=1#week-1---introduction)**
  - **[Week 2 - Core Solr capabilities](https://github.com/quangvu0702/Solr_Challenge/blob/master/README.md#week-2---core-solr-capabilities)**
  - **[Week 3 - Taking Solr to the next level](https://github.com/quangvu0702/Solr_Challenge/blob/master/README.md#week-3---taking-solr-to-the-next-level)**
+ - **[Week 4 - Write a plug-in for solr]()**
 <br>
 
 ## Week 1 - Introduction
@@ -101,7 +102,13 @@ chain of token filters.
      - Key words: tokenizer, analizer, stop words.
      - Reread [chapter 6: indexing](https://livebook.manning.com/book/solr-in-action/chapter-6)
      - Add analizer to EXAMPLE MICROBLOG.
-     - [All code you need are here.](https://github.com/quangvu0702/Solr-Challenge/tree/master/analizer-chap6)
+     - [All code you need are here.](https://github.com/quangvu0702/Solr-Challenge/tree/master/microblog-chapter6)
+   - Query:
+     - Goals: learn how to query solr to get the result we want.
+     - Key words: 
+     - Reread chapter 7 and 8
+     - Implement EXAMPLE RESTAURANT follow instructions in chapter 8
+     - [All code you need are here.](https://github.com/quangvu0702/Solr-Challenge/tree/master/restaurants)
 # Reference:
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
 - http://snap.stanford.edu/class/cs224w-videos-2017/
