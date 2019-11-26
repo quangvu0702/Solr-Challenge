@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema version="1.6">
+	<fields>
+		<field name="id" type="string" indexed="true" stored="true" required="true"/>
+		<field name="screen_name" type="string" indexed="true" stored="true"/>
+		<field name="type" type="string" indexed="true" stored="true"/>
+		<field name="timestamp" type="tdate" indexed="true" stored="true"/>
+		<field name="lang" type="string" indexed="true" stored="true"/>
+		<field name="favorites_count" type="int" indexed="true" stored="true" />
+		<field name="text" type="string" indexed="true" stored="true"/>
+		<field name="link" type="string" indexed="true" stored="true" multiValued="true" />
+	</fields>
+
+	<uniqueKey>id</uniqueKey>
+
+	<types>
+		<fieldType name="string" class="solr.StrField" sortMissingLast="true" omitNorms="true"/>
+		<fieldType name="tdate" class="solr.TrieDateField" omitNorms="true" precisionStep="6" positionIncrementGap="0"/>
+		<fieldType name="int" class="solr.TrieIntField" precisionStep="0" positionIncrementGap="0"/>
+	</types>
+</schema>
