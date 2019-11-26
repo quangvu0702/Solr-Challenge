@@ -109,6 +109,9 @@ chain of token filters.
      - Reread chapter 7 and 8
      - Implement EXAMPLE RESTAURANT follow instructions in chapter 8
      - [All code you need are here.](https://github.com/quangvu0702/Solr-Challenge/tree/master/restaurants)
+     
+## Week 4 - Write a plug-in for solr
+
 # Reference:
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
 - http://snap.stanford.edu/class/cs224w-videos-2017/
