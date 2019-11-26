@@ -10,7 +10,7 @@
  - **[Week 1 - Introduction](https://github.com/quangvu0702/Solr_challenge/new/master?readme=1#week-1---introduction)**
  - **[Week 2 - Core Solr capabilities](https://github.com/quangvu0702/Solr_Challenge/blob/master/README.md#week-2---core-solr-capabilities)**
  - **[Week 3 - Taking Solr to the next level](https://github.com/quangvu0702/Solr-Challenge/blob/master/README.md#week-3---hands-on-solr)**
- - **[Week 4 - Write a plug-in for solr]()**
+ - **[Week 4 - Write a solr plugin]()**
 <br>
 
 ## Week 1 - Introduction
@@ -110,7 +110,7 @@ chain of token filters.
      - Implement EXAMPLE RESTAURANT follow instructions in chapter 8
      - [All code you need are here.](https://github.com/quangvu0702/Solr-Challenge/tree/master/restaurants)
      
-## Week 4 - Write a plug-in for solr
+## Week 4 - Write a solr plugin
 
 # Reference:
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
