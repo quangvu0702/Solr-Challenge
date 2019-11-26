@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<schema version="1.6">
+	<fields>
+		<field name="id" type="string" indexed="true" stored="true" />
+		<field name="name" type="string" indexed="true" stored="true" />
+		<field name="city" type="string" indexed="true" stored="true" />
+		<field name="type" type="string" indexed="true" stored="true" />
+		<field name="state" type="string" indexed="true" stored="true"/>
+		<field name="tags" type="string" indexed="true" stored="true" multiValued="true" />
+		<field name="price" type="double" indexed="true" stored="true" />
+
+		<field name="text" type="text_general" multiValued="true" indexed="true" stored="false" />
+
+		<copyField source="name" dest="text" />
+		<copyField source="city" dest="text" />
+		<copyField source="type" dest="text" />
+		<copyField source="state" dest="text" />
+		<copyField source="tags" dest="text" />
+		<copyField source="price" dest="text" />
+
+	</fields>
+	<uniqueKey>id</uniqueKey>
+	<types>
+		<fieldType name="string" class="solr.StrField" sortMissingLast="true"/>
+		<fieldType name="boolean" class="solr.BoolField" sortMissingLast="true"/>
+		<fieldType name="double" class="solr.TrieDoubleField" precisionStep="0" positionIncrementGap="0"/>
+
+		<fieldType name="text_microblog" class="solr.TextField" positionIncrementGap="100">
+			<analyzer type="index">
+				<charFilter class="solr.PatternReplaceCharFilterFactory"
+                    pattern="([a-zA-Z])\1+"
+                    replacement="$1$1"/>
+        		<tokenizer class="solr.WhitespaceTokenizerFactory"/> 
+        		<filter class="solr.WordDelimiterFilterFactory" 
+	                generateWordParts="1" 
+	                splitOnCaseChange="0"
+	                splitOnNumerics="0"
+	                stemEnglishPossessive="1"
+	                preserveOriginal="0"
+	                catenateWords="1" 
+	                generateNumberParts="1" 
+	                catenateNumbers="0" 
+	                catenateAll="0" 
+	                types="wdfftypes.xml"/>
+				<filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_en.txt" />
+				<filter class="solr.LowerCaseFilterFactory"/>
+				<filter class="solr.ASCIIFoldingFilterFactory"/>
+				<filter class="solr.KStemFilterFactory"/>
+			</analyzer>
+			<analyzer type="query">
+				<charFilter class="solr.PatternReplaceCharFilterFactory"
+		                    pattern="([a-zA-Z])\1+"
+		                    replacement="$1$1"/>
+        		<tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        		<filter class="solr.WordDelimiterFilterFactory" 
+	                generateWordParts="1" 
+	                splitOnCaseChange="0"
+	                splitOnNumerics="0"
+	                stemEnglishPossessive="1"
+	                preserveOriginal="0"
+	                catenateWords="1" 
+	                generateNumberParts="1" 
+	                catenateNumbers="0" 
+	                catenateAll="0" 
+	                types="wdfftypes.xml"/>
+				<filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_en.txt" />
+				<filter class="solr.LowerCaseFilterFactory"/>
+				<filter class="solr.ASCIIFoldingFilterFactory"/>
+				<filter class="solr.KStemFilterFactory"/>
+			</analyzer>
+	    </fieldType>
+	    
+	</types>
+</schema>

@@ -1,0 +1,45 @@
+# start solr
+bin/solr start
+
+# creat new core with conf file
+bin/solr create_core -c restaurants -d restaurants/conf/
+
+# restart solr
+bin/solr stop -all && bin/solr start
+
+# import data json file
+bin/post -c restaurants restaurants/restaurants.json
+
+
+## all queries:
+
+# query all 
+http://localhost:8983/solr/restaurants/select?q=*
+
+# query and count shop name:
+http://localhost:8983/solr/restaurants/select?facet.field=name&facet=on&q=coffee&rows=3
+
+# count tags:
+http://localhost:8983/solr/restaurants/select?facet.field=tags&facet=on&q=coffee&rows=3
+
+# count shop in city:
+http://localhost:8983/solr/restaurants/select?facet.field=city&facet=on&q=coffee&rows=3
+
+# apply many facet in a query:
+http://localhost:8983/solr/restaurants/select?facet.field=city&facet.field=name&facet=on&q=coffee&rows=3
+
+# apply filter:
+http://localhost:8983/solr/restaurants/select?facet.field=city&facet.field=name&facet=on&q=coffee&rows=3&fq=price:[5 TO 20]
+
+http://localhost:8983/solr/restaurants/select?facet.field=city&facet.field=name&facet=on&facet.mincount=1&q=coffee&rows=3&fq=price:[5 TO 20]&fq=state:("New York")
+
+# facet.query
+http://localhost:8983/solr/restaurants/select?facet=on&q=coffee&rows=3&facet.query=state:(%22Illinois%22%20OR%20%22Texas%22)&facet.query=state:(%22California%22)
+
+# facet range:
+http://localhost:8983/solr/restaurants/select?q=*&rows=3&facet=true&facet.query=price:[*%20TO%205}&facet.query=price:[5%20TO%2010}&facet.query=price:[10%20TO%20*}
+
+http://localhost:8983/solr/restaurants/select?q=*&rows=3&facet=true&facet.range=price&facet.range.start=0&facet.range.end=50&facet.range.gap=5
+
+# filter by term:
+http://localhost:8983/solr/restaurants/select?q=*:*&facet=true&facet.mincount=1&facet.field=name&facet.field=tags&fq={!term f=tags}coffee&fq={!term f=tags}hamburgers
