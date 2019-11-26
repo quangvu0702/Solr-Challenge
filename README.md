@@ -1,6 +1,6 @@
 # Solr Challenge
 
-### I designed this Challenge for me: Learn Solr in Depth in 4 weeks!!
+### I designed this Challenge for me: Learn Solr in Depth in 3 weeks!!
 
 ### Prerequisites
 * Basic level of Java.
@@ -10,7 +10,6 @@
  - **[Week 1 - Introduction](https://github.com/quangvu0702/Solr_challenge/new/master?readme=1#week-1---introduction)**
  - **[Week 2 - Core Solr capabilities](https://github.com/quangvu0702/Solr_Challenge/blob/master/README.md#week-2---core-solr-capabilities)**
  - **[Week 3 - Taking Solr to the next level](https://github.com/quangvu0702/Solr-Challenge/blob/master/README.md#week-3---hands-on-solr)**
- - **[Week 4 - Write a solr plugin](https://github.com/quangvu0702/Solr-Challenge/blob/master/README.md#week-4---write-a-solr-plugin)**
 <br>
 
 ## Week 1 - Introduction
@@ -109,8 +108,6 @@ chain of token filters.
      - Reread chapter 7 and 8
      - Implement EXAMPLE RESTAURANT follow instructions in chapter 8
      - [All code you need are here.](https://github.com/quangvu0702/Solr-Challenge/tree/master/restaurants)
-     
-## Week 4 - Write a solr plugin
 
 # Reference:
 - http://web.stanford.edu/class/cs224w/?fbclid=IwAR2BkOohuJW-DMOJ5nUeafLAdOEgrtHVijc2NF7XJcyCrjMXVCQ9akgysXA
